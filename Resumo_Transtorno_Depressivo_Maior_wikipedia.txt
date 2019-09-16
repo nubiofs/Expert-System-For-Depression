@@ -1,0 +1,114 @@
+Distúrbio depressivo maior DDM (simplismente depressão) é uma doença mental / psíquica caracterizada por, em pelo menos duas semanas, um quadro sintomático grave que afeta como o paciente se sente, pensa e lida negativamente com as atividades diárias afetando, por exemplo, as relações sociais, o trabalho, as refeições e a saúde em geral.
+
+Algumas pessoas apresentam episódios de depressão separados por um intervalo de vários anos em que o comportamento é normal, enquanto outras manifestam sintomas de forma quase permanente.
+
+Este transtorno muitas vezes é acompanhado por baixa autoestima, perda de interesse em atividades de outra forma aprazíveis, pouca energia e dor sem causa definida. 
+
+Acredita-se que a condição seja causada por uma combinação de fatores genéticos, ambientais e psicológicos. O diagnóstico tem por base a descrição das experiências por parte da pessoa e a avaliação do estado mental.
+
+Os sintomas depressivos podem ser divididos entre: cognitivos (Desânimo, Redução da capacidade de experimentar prazer e Mentalidade suicida), fisiológicos (fadiga, alterações do sono, alterações do apetite, redução interesse sexual) e comportamentais (isolamento, comportamento autodestrutivo).
+
+"Fonte (https://www.nimh.nih.gov/health/topics/depression/index.shtml)"	
+
+
+* Fontes principais:
+
+https://pt.wikipedia.org/wiki/Transtorno_depressivo_maior
+https://pt.wikipedia.org/wiki/Escala_de_depress%C3%A3o_de_Beck
+
+================
+
+O Inventário de Depressão de Beck versão I ([BDI-I]; Cunha, 2001) foi desenvolvido para avaliar sintomas de depressão, sendo amplamente utilizado na investigação da intensidade dos sintomas depressivos, tanto em clínica como em pesquisas (Souza, 2010). Os itens da escala se referem a insatisfação, punição, tristeza, sentimento de fracasso, pessimismo, autoaversão, retraimento social, indecisão, ideias suicidas, mudança na autoimagem, choro, insônia, dificuldade de trabalhar, perda de apetite e peso, perda de libido, fatigabilidade e preocupações somáticas. A pontuação da escala é em formato Likert de 4 pontos (0, 1, 2 e 3), podendo ter pontuações de 0 a 63, nos 21 itens (Cunha, 2001).
+
+É capaz de identificar 77% dos casos com depressão corretamente (sensibilidade) e 95% dos casos negativos corretamente (especificidade)
+
+(BDI – Inventário de Depressão de Beck, em que se considera depressivo quem pontuasse 13 ou mais, que inclui desde sintomas leves a
+moderados e graves)
+
+---
+
+(http://tede2.pucrs.br/tede2/bitstream/tede/639/1/409553.pdf)
+--> https://www.slideshare.net/micaterres/apresentao1-escalas-beck
+--> https://www.slideshare.net/darcianebrito/slide-sobre-o-teste-escalas-beck
+
+Esses sintomas devem estar presentes praticamente todos os dias, por um período de mais de duas semanas, devendo o indivíduo apresentar também sintomas adicionais, tais como: alterações na atividade motora, peso, apetite e sono; sentimentos de desvalia ou culpa, fadiga, energia reduzida, dificuldades para pensar, concentrar-se ou tomar decisões; irritabilidade, pensamentos recorrentes sobre morte ou ideação suicida, assim como planos ou
+tentativas de suicídio. 
+
+Os testes psicológicos são instrumentos de avaliação ou mensuração de características
+psicológicas observadas através da manifestação do comportamento. Sendo assim, partindose da maneira como as pessoas se comportam nas tarefas, faz-se inferência das características
+psicológicas que o teste busca avaliar. Estes testes auxiliam na Avaliação Psicológica com
+dados úteis e confiáveis (Conselho Federal de Psicologia [CFP], 2004)
+
+
+Dentre os vários testes psicológicos existentes para avaliar alterações no humor e
+sintomatologia depressiva, o Inventário de Depressão de Beck (BDI) é um dos mais
+utilizados em pesquisa e clínica. Trata-se de uma escala sintomática desenvolvida em 1961
+por Beck e Steer (1993). Cada um de seus 21 itens permite diferentes alternativas de
+respostas que correspondem a níveis crescentes de gravidade da sintomatologia depressiva,
+com escore de zero a três. A soma dos escores dos itens individuais fornece um escore total,
+que constitui uma medida da intensidade dos sintomas depressivos
+
+
+ Inventário de Depressão de Beck - II (BDI-II), em 1996
+(Beck, Steer & Brown, 1996). Nesta nova versão, além do tempo de avaliação, que passou de
+uma para duas semanas, alguns itens referentes a critérios específicos, que não estavam
+presentes no instrumento anterior, foram incluídos (avaliação da agitação, auto-estima,
+dificuldade de concentração e perda de energia) e outros excluídos (perda de peso, mudança
+na imagem do corpo, dificuldade para trabalhar e preocupação somática). 
+
+ Inventário de Depressão de Beck II - BDI-II. O BDI-II trata-se de uma escala sintomática em que cada um dos seus 21 itens permite diferentes alternativas de respostas que correspondem a níveis crescentes de gravidade da depressão, com escore de zero a três. A soma dos escores dos itens individuais fornece um escore total, que constitui uma medida da intensidade dos sintomas depressivos. Esta, conforme normas americanas, pode classificar-se como mínima,
+leve, moderada ou grave. 
+
+Item do BDI-II 
+1 – Tristeza
+2 – Pessimismo
+3 – Fracasso passado
+4 – Perda de prazer
+5 – Sentimentos de culpa
+6 – Sentimentos de punição
+7 – Auto-estima
+8 – Autocrítica
+9 – Pensamentos ou desejos suicidas
+10 – Choro
+11 – Agitação
+12 – Perda de interesse
+13 – Indecisão
+14 – Desvalorização
+15 – Falta de energia
+16 – Alterações no padrão de sono
+17 – Irritabilidade
+18 – Alterações de apetite
+19 – Dificuldade de concentração
+20 – Cansaço ou fadiga
+21 – Perda de interesse por sexo
+
+0 - absolutamente não
+1 - levemente: não me incomodou muito
+2 - Foi muito desagradável, mas pude suportar
+3 - Gravemente: dificilmente pude suportar
+
+
+apresenta quatro categorias possíveis de avaliação dos sintomas
+depressivos e seus pontos de corte: mínimo (de 0 a 13 pontos), leve (de 14 a 19 pontos),
+moderado (de 20 a 28 pontos) e grave (de 29 a 63 pontos). 
+
+os universitários que pontuaram de forma grave (de 29 a 63
+pontos) apresentariam um episódio depressivo maior, o que poderia caracterizar ou
+Transtorno Depressão Maior 
+
+==> (versão português)
+mínimo (de 0 a 11 pontos), leve (de 12 a 19 pontos),
+moderado (de 20 a 35 pontos) e grave (de 36 a 63 pontos). 
+
+)))))
+
+A BDI coleta as descrições textuais de pacientes sobre seus sintomas e utilizando estes termos para estruturar uma escala que refletisse a intensidade e severidade de um dado sintoma.
+
+A depressão pode ser entendida como tendo dois componentes: o componente afetivo (humor) e o componente físico ou "somatico" (por exemplo, perda de apetite). A BDI-II reflete esta abordagem e pode ser divida em duas subescalas. O propósito destas subescalas é determinar a causa primária da depressão do paciente.
+
+A subescala afetiva contém oito itens: pessimismo, perdas passadas, sentimentos de culpa, sentimentos de punição, auto-desprezo, autocrítica, pensamentos ou desejos suicidas e pensamentos de desvalor. A subescala somática consiste de outros treze itens: tristeza, alterações no apetite, perda de prazer, choro, agitação, perda de interesse, cansaço ou fatiga, indecisão, perda de energia, alterações nos padrões de sono, irritabilidade, dificuldades de concentração e diminuição da libido. As duas subescalas são moderadamente correlacionadas a 0.57, o que sugere que os aspectos físicos e psicológicos da depressão são relacionados ao invés de completamente distintos.
+
+Embora desenhada como um instrumento de rastreio e não como ferramenta diagnóstica, a BDI pode ser ocasionalmente utilizada por profissionais de saúde para obter um rápido diagnóstico.
+
+
+
