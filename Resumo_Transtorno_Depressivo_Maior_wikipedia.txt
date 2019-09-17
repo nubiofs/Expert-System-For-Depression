@@ -111,4 +111,134 @@ A subescala afetiva contém oito itens: pessimismo, perdas passadas, sentimentos
 Embora desenhada como um instrumento de rastreio e não como ferramenta diagnóstica, a BDI pode ser ocasionalmente utilizada por profissionais de saúde para obter um rápido diagnóstico.
 
 
+xxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
+(https://repositorio.ufsm.br/bitstream/handle/1/12850/TCCG_SIFW_2017_PERUZZO_DIEL.pdf?sequence=1&isAllowed=y)
+
+Nos diversos sintomas apresentados por pacientes que apresentam depressão,
+estão queixas e sintomas que levam as pessoas a demandarem um tratamento psíquico.
+
+
+A DSM-5 (APA, 2014), baseada em levantamentos científicos e clínicos, indica
+a procura de um médico, caso pelo menos 5 dos sintomas a seguir apresentados sejam
+constatados por mais de dois meses consecutivos:
+(1) humor deprimido: humor deprimido na maior parte do dia, quase todos os
+dias, indicado por relato subjetivo (por exemplo, sentir-se triste ou vazio) ou
+observação feita por outros (por exemplo, chorar muito);
+(2) acentuada diminuição do interesse ou prazer em todas ou quase todas as
+atividades na maior parte do dia, quase todos os dias (indicado por relato
+subjetivo ou observação feita por terceiros);
+(3) perda ou ganho significativo de peso sem estar em dieta (por exemplo, mais
+de 5% do peso corporal em 1 mês), ou diminuição ou aumento do apetite
+quase todos os dias;
+(4) insônia ou hipersonia quase todos os dias; 
+(5) agitação ou retardo psicomotor quase todos os dias (observáveis por outros,
+não meramente sensações subjetivas de inquietação ou de estar mais lento);
+(6) fadiga ou perda de energia quase todos os dias;
+(7) sentimento de inutilidade ou culpa excessiva ou inadequada (que pode ser
+delirante), quase todos os dias (não meramente autorrecriminaçaõ ou culpa
+por estar doente);
+(8) capacidade diminuída de pensar ou concentrar-se, ou indecisão, quase todos
+os dias (por relato subjetivo ou observação feita por outros);
+(9) pensamentos de morte recorrentes (não apenas medo de morrer), ideação
+suicida recorrente sem um plano especifico, tentativa de suicídio ou plano
+específico para cometer suicídio. 
+
+Os sintomas causam sofrimento clinicamente significativo
+ou prejuízo no funcionamento social ou ocupacional ou em outras áreas importantes da
+vida do indivíduo 
+
+um SE para os profissionais da área de Psicologia,
+a fim de auxiliá-los na identificação, no pré-diagnóstico e na sugestão de tratamentos 
+
+consultar especialistas da área de Psicologia, a fim de identificar as principais dificuldades enfrentadas no diagnóstico das patologias envolvendo
+transtornos
+
+Essas perguntas
+correspondem aos dados clínicos do paciente, e as respostas são necessárias para que o
+SE possa fazer sua primeira avaliação em relação à saúde do paciente. 
+
+ relatam a dificuldade de obter informações dos especialistas na
+área, o que não permitiu o desenvolvimento de uma base de conhecimentos mais
+abrangente.
+
+-->>>
+
+(Este questionário foi desenvolvido pela especialista para suprir a necessidade
+deste protótipo, seguindo como referência o DSM V (Manual Diagnóstico e Estatístico
+de Transtornos Mentais)
+
+O questionário é composto de uma quantidade de 32 questões, todas com três
+alternativas cada, excetuando-se a última questão. A última se diferencia das demais
+com as seguintes alternativas: duas semanas ou mais; durante dois anos ou mais; por
+mais de duas semanas, porém sinto de quatro a cinco sintomas mais diariamente. Já as
+demais perguntas do questionário apresentam as seguintes alternativas: sim; não; às
+vezes. 
+
+Os níveis de depressão possíveis de serem diagnosticados são os seguintes:
+depressão leve, depressão moderada e depressão grave. Para identificar os níveis de
+depressão citados, de acordo com as definições da Psicóloga Tamara Peruzzo Stock o
+questionário foi desenvolvido e é avaliado da seguinte forma:
+
+- Depressão leve: de 2 a 4 questões respondidas com a alternativa às vezes;
+
+- Depressão moderada: pelo menos 3 a 4 sintomas abrangentes e obrigatórios,
+respondidos com a alternativa sim e mais duas outras alternativas dentre 11
+possíveis;
+- Depressão grave: 5 sintomas obrigatórios mais 4 outros dentre 14 possíveis. 
+
+ identificar se o
+resultado gerado ficou dentro dos quatro
+
+ possíveis diagnósticos sendo eles: Leve,
+Moderado e Grave e Indefinido
+
+
+Questionário sobre Depressão:
+1. Sinto-me triste. Sim ( ) Não ( ) Às vezes ( )
+2. Sinto-me desesperançoso (a). Sim ( ) Não ( ) Às vezes ( )
+3. Pensamentos negativos. Sim ( ) Não ( ) Às vezes ( )
+4. Sinto-me vazio. Sim ( ) Não ( ) Às vezes ( )
+5. Desinteresso-me pelas atividades que antes eram prazerosas. Sim ( ) Não ( ) Às
+vezes ( )
+6. Sinto-me sem apetite. Sim ( ) Não ( ) Às vezes ( ).
+7. Tenho pensamentos suicidas. Sim ( ) Não ( ) Às vezes ( ).
+8. Sinto dificuldades de concentração. Sim ( ) Não ( ) Às vezes ( ).
+9. Meu apetite aumentou significativamente. Sim ( ) Não ( ) Às vezes ( ).
+10. Sinto muito sono, (durmo demais e mesmo assim fico com sono a maior parte do
+tempo). Sim ( ) Não ( ) Às vezes ( ).
+11. Sinto-me inadequado(a),(no ambiente social, no trabalho ou como pessoa).Sim ( )
+Não ( ) Às vezes ( ).
+12. Desinteresse diminuído para realizar as atividades de rotina diária. Sim ( ) Não ( )
+Às vezes ( ).
+13. Sinto-me indisposto (a). Sim ( ) Não ( ) Às vezes ( ).
+14. Sinto-me irritado (a). Sim ( ) Não ( ) Às vezes ( ).
+15. Sinto-me desinteressado (a) pela vida social. Sim ( ) Não ( ) Às vezes ( ).
+16. Desinteresse por sexo. Sim ( ) Não ( ) Às vezes ( ).
+17. Tenho insônia. Sim ( ) Não ( ) Às vezes ( ).
+18. Sinto-me frágil emocionalmente. Sim ( ) Não ( ) Às vezes ( ).
+
+19. Ouço vozes. Sim ( ) Não ( ) Às vezes ( ).
+20. Sinto-me indeciso (a). Sim ( ) Não ( ) Às vezes ( ).
+21. Tenho esquecimentos frequentes. Sim ( ) Não ( ) Às vezes ( ).
+22. Choro frequentemente sem motivo aparente. Sim ( ) Não ( ) Às vezes ( ).
+23. Sinto-me agitado (a). Sim ( ) Não ( ) Às vezes ( ).
+24. Sinto cansaço exagerado. Sim ( ) Não ( ) Às vezes ( ).
+25. Tenho medo que algo terrível aconteça comigo. Sim ( ) Não ( ) Às vezes ( ).
+26. Sinto-me sonolento(a). Sim ( ) Não ( ) Às vezes ( ).
+27. Sinto-me fracassado(a) e/ou inútil(profissionalmente, pessoal ou afetivo). Sim ( )
+Não ( ) Às vezes ( ).
+28. Tenho a sensação de que posso perder o controle sobre mim. Sim ( ) Não ( ) Às
+vezes ( ).
+29. Humor deprimido. Sim ( ) Não ( ) Às vezes ( ).
+30. Sinto dores e outros sintomas físicos não justificados por problemas médicos
+como: dor de cabeça frequente, dor na região abdominal, má digestão, pressão no
+peito, constipação, tensão na nuca, ombros e dores no corpo. Sim ( ) Não ( ) Às
+vezes ( ).
+31. Sensação de peso nas pernas ou nos braços. Sim ( ) Não ( ) Às vezes ( ).
+32. Baseado nas questões acima, há quanto tempo sente esses sintomas?
+Duas semanas ou mais ( )
+Durante dois anos ou mais ( )
+Por mais de duas semanas, porém sinto de quatro a cinco sintomas ou mais
+frequentemente ( ).
 
