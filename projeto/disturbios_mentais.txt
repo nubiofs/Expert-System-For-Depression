@@ -1,0 +1,208 @@
+--------------------------------------------------------------------------------
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    SEM NOME
+  -- Autores: 
+
+Operador de maior precedência: conjunção
+Fator de confiança mínimo para aceitação de regra: 50
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\Users\clenubio\Downloads\ia-pos\disturbios_mentais.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+VARIÁVEIS
+
+  agitacao
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  auto_critica
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  baixa_auto_estima
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  classificacao_disturbio
+    Valores:
+      depressao_maior
+      distimia
+      depressao_atipica
+      depressao_pos_parto
+      disturbio_afetivo_sazonal
+      sem_disturbio_apenas_pesar
+      tensao_pre_mestrual
+    Tipo:
+      multivalorada
+  desperancoso
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  dificuldade_concentracao
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  fadiga
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  frequencia_sintomatica
+    Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  ideacao_suicida
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  indecisao
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  insonia
+    Valores:
+      leve
+      grave
+      moderado
+    Tipo:
+      univalorada
+  irritabilidade
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  perda_apetite
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  perda_interesse
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  perda_libido
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  sentimento_inutilidade
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  tristeza
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  vulnerabilidade_emocional
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+
+OBJETIVOS
+
+  classificacao_disturbio
+
+REGRAS
+
+  Regra 1
+    SE agitacao = moderado
+    E  agitacao = grave
+    E  auto_critica = moderado
+    E  frequencia_sintomatica = duas_semanas_ou_mais
+    ENTÃO classificacao_disturbio = depressao_atipica CNF 100%
+
+  Regra 2
+    SE agitacao = leve
+    OU agitacao = DESCONHECIDO
+    E  auto_critica = leve
+    OU auto_critica = DESCONHECIDO
+    E  baixa_auto_estima = leve
+    OU baixa_auto_estima = DESCONHECIDO
+    E  desperancoso = leve
+    OU desperancoso = DESCONHECIDO
+    E  dificuldade_concentracao = leve
+    OU dificuldade_concentracao = DESCONHECIDO
+    E  fadiga = leve
+    OU fadiga = DESCONHECIDO
+    E  ideacao_suicida = leve
+    OU ideacao_suicida = DESCONHECIDO
+    E  indecisao = leve
+    OU indecisao = DESCONHECIDO
+    E  insonia = leve
+    OU insonia = DESCONHECIDO
+    E  irritabilidade = leve
+    OU irritabilidade = DESCONHECIDO
+    E  perda_apetite = leve
+    OU perda_apetite = DESCONHECIDO
+    E  perda_interesse = leve
+    OU perda_interesse = DESCONHECIDO
+    E  perda_libido = leve
+    OU perda_libido = DESCONHECIDO
+    E  sentimento_inutilidade = leve
+    OU sentimento_inutilidade = DESCONHECIDO
+    E  tristeza = leve
+    OU tristeza = DESCONHECIDO
+    E  vulnerabilidade_emocional = leve
+    OU vulnerabilidade_emocional = DESCONHECIDO
+    E  frequencia_sintomatica = duas_semanas_ou_mais
+    OU frequencia_sintomatica = DESCONHECIDO
+    ENTÃO classificacao_disturbio = sem_disturbio_apenas_pesar CNF 100%
+
+PERGUNTAS
+
+  Variável:agitacao
+     Pergunta:"Sente-se agitado? Tem dificuldade de manter um ritmo controlado sobre seus movimentos e ações? "
+  Variável:auto_critica
+     Pergunta:"Faz constantes e negativos jugamentos sobre o que você deveria ou não ter falado, feito?"
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+--------------------------------------------------------------------------------
