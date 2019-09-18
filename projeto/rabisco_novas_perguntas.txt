@@ -1,0 +1,14 @@
+PERGUNTAS
+
+    Variável:baixa_auto_estima
+        Pergunta:"Quando você se olha no espelho, reflete sobre si mesmo ou suas qualidades, gosta do que vê / pensa?"
+    Variável:desperancoso
+        Pergunta:"Percebe o futuro como uma realidade negativa na qual há a sensação de um lutar invão (não resta nada além de seus sonhos e objetivos serem sempre frustrados)?"
+    Variável:dificuldade_concentracao
+        Pergunta:"Na realização de tarefas importantes do dia a dia, fica distraido pensando em coisas não relacionadas as mesmas?"
+    Variável:fadiga
+        Pergunta:"Sente fraqueza no corpo ou é difícil conseguir forças para realizar até mesmo as atividades mais corriqueiras?"
+    Variável:ideacao_suicida
+        Pergunta:"Você acha que a vida não vale mais a pena e, portanto, planeja ou já fez tentativas de cometer suicídio?"
+    Variável:indecisao
+        Pergunta:"Para você as dúvidas são tão paralizantes que na maioria das vezes não sabe o que fazer?"
