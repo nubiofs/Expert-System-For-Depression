@@ -1,0 +1,8 @@
+REGRAS
+
+  Regra 2
+    SE agitacao = sim
+    OU  agitacao = sim
+    E  agitacao_grau = moderado
+    OU  agitacao_grau = grave
+    ENTÃO classificacao_disturbio = depressao_atipica CNF 100%
