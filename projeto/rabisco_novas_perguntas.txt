@@ -1,5 +1,9 @@
-PERGUNTAS
+PERGUNTAS "Para confirmação de tem ou não um tipo de sintoma(variável). Possíveis respostas: 1) Sim, frequentemente; 2) Sim, com pouca recorrência; 3) Não"
 
+    Variável:agitacao
+        Pergunta:"Sente-se agitado? Tem dificuldade de manter um ritmo controlado sobre seus movimentos e ações? "
+    Variável:auto_critica
+        Pergunta:"Faz constantes e negativos jugamentos sobre o que você deveria ou não ter falado, feito?"
     Variável:baixa_auto_estima
         Pergunta:"Quando você se olha no espelho, reflete sobre si mesmo ou suas qualidades, gosta do que vê / pensa?"
     Variável:desperancoso
@@ -29,5 +33,8 @@ PERGUNTAS
     Variável:vulnerabilidade_emocional
         Pergunta:"Tem dificuldade em se adaptar afetivamente a um contexto, criando consequências negativas para si mesmo?"
 
+====
+
+PERGUNTAS "Para para determinar o nível / grau do sintoma (apenas para 'variável' de sintoma = Sim). Possíveis respostas: 1) Sim, frequentemente consiguo tomar alguma atitude que diminui o sofrimento; 2) Sim, recorrentemente procuro ajuda mas o sintoma não cessa; 3) Não, sem razão aparente continuo, nada é suficiente que resolva"
 
 
