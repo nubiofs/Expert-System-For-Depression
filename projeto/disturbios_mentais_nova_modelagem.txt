@@ -15,23 +15,23 @@ VARIÁVEIS
 
   agitacao
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   auto_critica
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   baixa_auto_estima
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   classificacao_disturbio
@@ -47,23 +47,23 @@ VARIÁVEIS
       multivalorada
   desperancoso
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   dificuldade_concentracao
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   fadiga
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   frequencia_sintomatica
@@ -74,68 +74,186 @@ VARIÁVEIS
       univalorada
   ideacao_suicida
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   indecisao
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   insonia
     Valores:
-      leve
-      grave
-      moderado
+      Sim, frequentemente
+      Não
+      Sim, com pouca recorrência
     Tipo:
       univalorada
   irritabilidade
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   perda_apetite
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   perda_interesse
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   perda_libido
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   sentimento_inutilidade
     Valores:
-      leve
-      moderado
-      grave
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
     Tipo:
       univalorada
   tristeza
+    Valores:
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
+    Tipo:
+      univalorada
+  vulnerabilidade_emocional
+    Valores:
+      Sim, frequentemente
+      Sim, com pouca recorrência
+      Não
+    Tipo:
+      univalorada
+  agitacao_grau
     Valores:
       leve
       moderado
       grave
     Tipo:
       univalorada
-  vulnerabilidade_emocional
+  auto_critica_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  baixa_auto_estima_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  desperancoso_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  dificuldade_concentracao_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  fadiga_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  frequencia_sintomatica_grau
+    Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  ideacao_suicida_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  indecisao_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  insonia_grau
+    Valores:
+      leve
+      grave
+      moderado
+    Tipo:
+      univalorada
+  irritabilidade_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  perda_apetite_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  perda_interesse_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  perda_libido_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  sentimento_inutilidade_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  tristeza_grau
+    Valores:
+      leve
+      moderado
+      grave
+    Tipo:
+      univalorada
+  vulnerabilidade_emocional_grau
     Valores:
       leve
       moderado
@@ -150,44 +268,44 @@ OBJETIVOS
 REGRAS
 
   Regra 1
-    SE agitacao = moderado
-    E  agitacao = grave
-    E  auto_critica = moderado
+    SE agitacao = Sim, com pouca recorrência
+    E  agitacao = Não
+    E  auto_critica = Sim, com pouca recorrência
     E  frequencia_sintomatica = duas_semanas_ou_mais
     ENTÃO classificacao_disturbio = depressao_atipica CNF 100%
 
-  Regra 2
-    SE agitacao = leve
+  Regra Ultima
+    SE agitacao = Sim, com pouca recorrência
     OU agitacao = DESCONHECIDO
-    E  auto_critica = leve
+    E  auto_critica = Sim, com pouca recorrência
     OU auto_critica = DESCONHECIDO
-    E  baixa_auto_estima = leve
+    E  baixa_auto_estima = Sim, com pouca recorrência
     OU baixa_auto_estima = DESCONHECIDO
-    E  desperancoso = leve
+    E  desperancoso = Sim, com pouca recorrência
     OU desperancoso = DESCONHECIDO
-    E  dificuldade_concentracao = leve
+    E  dificuldade_concentracao = Sim, com pouca recorrência
     OU dificuldade_concentracao = DESCONHECIDO
-    E  fadiga = leve
+    E  fadiga = Sim, com pouca recorrência
     OU fadiga = DESCONHECIDO
-    E  ideacao_suicida = leve
+    E  ideacao_suicida = Sim, com pouca recorrência
     OU ideacao_suicida = DESCONHECIDO
-    E  indecisao = leve
+    E  indecisao = Sim, com pouca recorrência
     OU indecisao = DESCONHECIDO
-    E  insonia = leve
+    E  insonia = Sim, com pouca recorrência
     OU insonia = DESCONHECIDO
-    E  irritabilidade = leve
+    E  irritabilidade = Sim, com pouca recorrência
     OU irritabilidade = DESCONHECIDO
-    E  perda_apetite = leve
+    E  perda_apetite = Sim, com pouca recorrência
     OU perda_apetite = DESCONHECIDO
-    E  perda_interesse = leve
+    E  perda_interesse = Sim, com pouca recorrência
     OU perda_interesse = DESCONHECIDO
-    E  perda_libido = leve
+    E  perda_libido = Sim, com pouca recorrência
     OU perda_libido = DESCONHECIDO
-    E  sentimento_inutilidade = leve
+    E  sentimento_inutilidade = Sim, com pouca recorrência
     OU sentimento_inutilidade = DESCONHECIDO
-    E  tristeza = leve
+    E  tristeza = Sim, com pouca recorrência
     OU tristeza = DESCONHECIDO
-    E  vulnerabilidade_emocional = leve
+    E  vulnerabilidade_emocional = Sim, com pouca recorrência
     OU vulnerabilidade_emocional = DESCONHECIDO
     E  frequencia_sintomatica = duas_semanas_ou_mais
     OU frequencia_sintomatica = DESCONHECIDO
@@ -195,10 +313,72 @@ REGRAS
 
 PERGUNTAS
 
-  Variável:agitacao
-     Pergunta:"Sente-se agitado? Tem dificuldade de manter um ritmo controlado sobre seus movimentos e ações? "
-  Variável:auto_critica
-     Pergunta:"Faz constantes e negativos jugamentos sobre o que você deveria ou não ter falado, feito?"
+    Variável:agitacao
+        Pergunta:"Sente-se agitado? Tem dificuldade de manter um ritmo controlado sobre seus movimentos e ações? "
+    Variável:auto_critica
+        Pergunta:"Faz constantes e negativos jugamentos sobre o que você deveria ou não ter falado, feito?"
+    Variável:baixa_auto_estima
+        Pergunta:"Quando você se olha no espelho, reflete sobre si mesmo ou suas qualidades, gosta do que vê / pensa?"
+    Variável:desperancoso
+        Pergunta:"Percebe o futuro como uma realidade negativa na qual há a sensação de um lutar invão (não resta nada além de seus sonhos e objetivos serem sempre frustrados)?"
+    Variável:dificuldade_concentracao
+        Pergunta:"Na realização de tarefas importantes do dia a dia, fica distraido pensando em coisas não relacionadas?"
+    Variável:fadiga
+        Pergunta:"Sente fraqueza no corpo ou é difícil conseguir forças para realizar até mesmo as atividades mais corriqueiras?"
+    Variável:ideacao_suicida
+        Pergunta:"Você acha que a vida não vale mais a pena e, portanto, planeja ou já fez tentativas de cometer suicídio?"
+    Variável:indecisao
+        Pergunta:"Para você as dúvidas são tão paralizantes que o impedem de tomar alguma atitude concreta?"
+    Variável:insonia
+        Pergunta:"Tem percebido alterações na qualidade, duração e início do sono?"
+    Variável:irritabilidade
+        Pergunta:"Sua intolerância em relação a assuntos ou coisas banais está exacerbada?"
+    Variável:perda_apetite
+        Pergunta:"Nas refeições, diante de um prato de comida bonito e apetitoso, não sente nenhuma vontande de comer?"
+    Variável:perda_interesse
+        Pergunta:"Perdeu o interesse nas coisas que antes lhe proporcionava satisfação e prazer?"
+    Variável:perda_libido
+        Pergunta:"Há falta de entusiamo nas suas relações sexuais? Seu parceiro(a) se queixa sobre seu desinteresse pelo sexo?"
+    Variável:sentimento_inutilidade
+        Pergunta:"Se sente como alguem descartável, não mais necessário no meio social em que vive?"
+    Variável:tristeza
+        Pergunta:"Sente-se abatido ao tratar uma situação indesejável, porém isso não lhe impede de tentar melhorar a situação?"
+    Variável:vulnerabilidade_emocional
+        Pergunta:"Tem dificuldade em se adaptar afetivamente a um contexto, criando consequências negativas para si mesmo?"
+    Variável:frequencia_sintomatica
+    	Pergunta:"Com qual frequência você sente os sintomas que você confirmou?"
+    Variável:agitacao_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (agitação)?"
+    Variável:auto_critica_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (auto critica)?"
+    Variável:baixa_auto_estima_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (baixa auto-estima)?"
+    Variável:desperancoso_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (desperançoso)?"
+    Variável:dificuldade_concentracao_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (dificuldade de concentração)?"
+    Variável:fadiga_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (fadiga)?"
+    Variável:ideacao_suicida_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (pensamentos suicidas)?"
+    Variável:indecisao_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (indecisão)?"
+    Variável:insonia_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (insonia)?"
+    Variável:irritabilidade_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (irritabilidade)?"
+    Variável:perda_apetite_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (perda de apetite)?"
+    Variável:perda_interesse_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (perda de interesse)?"
+    Variável:perda_libido_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (falta de libido)?"
+    Variável:sentimento_inutilidade_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (sentimento de inutilidade)?"
+    Variável:tristeza_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (tristeza)?"
+    Variável:vulnerabilidade_emocional_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento (vulnerabilidade emocional)?"
 
 --------------------------------------------------------------------------------
 Gerado com o Expert SINTA versão 1.1b
