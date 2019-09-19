@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 SOBRE O SISTEMA ESPECIALISTA
-  -- Nome:    SEM NOME
-  -- Autores: 
+  -- Nome:    DetectaTipoDisturbio
+  -- Autores: Clenubio, Iron e Willi
 
 Operador de maior precedência: conjunção
 Fator de confiança mínimo para aceitação de regra: 50
@@ -135,14 +135,102 @@ VARIÁVEIS
       Não
     Tipo:
       univalorada
-  vulnerabilidade_emocional
+  frequencia_sintomatica_agitacao
     Valores:
-      Sim, frequentemente
-      Sim, com pouca recorrência
-      Não
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
     Tipo:
       univalorada
-  agitacao_grau
+  frequencia_sintomatica_auto_critica
+    Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_baixa_auto_estima
+    Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada  
+  frequencia_sintomatica_desperancoso
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_dificuldade_concentracao
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_fadiga
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_ideacao_suicida
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_indecisao
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_insonia
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_irritabilidade
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_perda_apetite
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_perda_interesse
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_perda_libido
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_sentimento_inutilidade
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_tristeza
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada
+  frequencia_sintomatica_vulnerabilidade_emocional
+      Valores:
+      duas_semanas_ou_mais
+      durante_dois_anos_ou_mais
+    Tipo:
+      univalorada  agitacao_grau
     Valores:
       leve
       moderado
@@ -274,7 +362,7 @@ REGRAS
     E  frequencia_sintomatica = duas_semanas_ou_mais
     ENTÃO classificacao_disturbio = depressao_atipica CNF 100%
 
-  Regra Ultima
+  Regra 2
     SE agitacao = Sim, com pouca recorrência
     OU agitacao = DESCONHECIDO
     E  auto_critica = Sim, com pouca recorrência
