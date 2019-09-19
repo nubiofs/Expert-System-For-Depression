@@ -5,10 +5,29 @@ PERGUNTAS
     Variável:desperancoso
         Pergunta:"Percebe o futuro como uma realidade negativa na qual há a sensação de um lutar invão (não resta nada além de seus sonhos e objetivos serem sempre frustrados)?"
     Variável:dificuldade_concentracao
-        Pergunta:"Na realização de tarefas importantes do dia a dia, fica distraido pensando em coisas não relacionadas as mesmas?"
+        Pergunta:"Na realização de tarefas importantes do dia a dia, fica distraido pensando em coisas não relacionadas?"
     Variável:fadiga
         Pergunta:"Sente fraqueza no corpo ou é difícil conseguir forças para realizar até mesmo as atividades mais corriqueiras?"
     Variável:ideacao_suicida
         Pergunta:"Você acha que a vida não vale mais a pena e, portanto, planeja ou já fez tentativas de cometer suicídio?"
     Variável:indecisao
-        Pergunta:"Para você as dúvidas são tão paralizantes que na maioria das vezes não sabe o que fazer?"
+        Pergunta:"Para você as dúvidas são tão paralizantes que o impedem de tomar alguma atitude concreta?"
+    Variável:insonia
+        Pergunta:"Tem percebido alterações na qualidade, duração e início do sono?"
+    Variável:irritabilidade
+        Pergunta:"Sua intolerância em relação a assuntos ou coisas banais está exacerbada?"
+    Variável:perda_apetite
+        Pergunta:"Nas refeições, diante de um prato de comida bonito e apetitoso, não sente nenhuma vontande de comer?"
+    Variável:perda_interesse
+        Pergunta:"Perdeu o interesse nas coisas que antes lhe proporcionava satisfação e prazer?"
+    Variável:perda_libido
+        Pergunta:"Há falta de entusiamo nas suas relações sexuais? Seu parceiro(a) se queixa sobre seu desinteresse pelo sexo?"
+    Variável:sentimento_inutilidade
+        Pergunta:"Se sente como alguem descartável, não mais necessário no meio social em que vive?"
+    Variável:tristeza
+        Pergunta:"Sente-se abatido ao tratar uma situação indesejável, porém isso não lhe impede de tentar melhorar a situação?"
+    Variável:vulnerabilidade_emocional
+        Pergunta:"Tem dificuldade em se adaptar afetivamente a um contexto, criando consequências negativas para si mesmo?"
+
+
+
