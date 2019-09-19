@@ -35,8 +35,10 @@ PERGUNTAS "Para confirmação de tem ou não um tipo de sintoma(variável). Poss
 
 ====
 
-PERGUNTAS "Para para determinar o nível / grau do sintoma (apenas para 'variável' de sintoma = Sim). Possíveis respostas: 1) Sim, frequentemente consiguo tomar alguma atitude que diminui o sofrimento; 2) Sim, recorrentemente procuro ajuda mas o sintoma não cessa; 3) Não, sem razão aparente e de forma prolongada, continuo sofrendo sem conseguir tomar nenhuma atitude"
+PERGUNTAS "Para determinar o nível / grau do sintoma (apenas para 'variável' de sintoma = Sim). Possíveis respostas: 1) Sim, frequentemente consiguo; 2) Sim, recorrentemente procuro fazer algo mas o sintoma não cessa; 3) Não, sem razão aparente e de forma prolongada, continuo sofrendo e não consiguo fazer nada positivo".
 
-    Variável:ideacao_suicida_grau
-        Pergunta:"Consegue tomar alguma atitude válida (procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento?"
+obs.: Para todas as variáveis de sintoma (criar novas variaveis para o grau, utilizando a pergunta):
+
+    Variável:"??sintoma??"_grau
+        Pergunta:"Consegue tomar alguma atitude válida (por exemplo: procura ajuda, conversar sobre o assunto) que diminui o seu sofrimento?"
 
