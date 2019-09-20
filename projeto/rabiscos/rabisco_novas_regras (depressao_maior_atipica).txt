@@ -1,0 +1,123 @@
+REGRAS 4, 5 e 6 -> depressão maior (leve, moderado ou grave)
+
+  Regra 4
+    SE perda_apetite = Sim, frequentemente
+    E perda_apetite_grau = moderado
+    E insonia = Sim, frequentemente
+    E insonia_grau = moderado
+    E agitacao = Sim, frequentemente
+    E agitacao_grau = moderado
+    E perda_interesse = Sim, frequentemente
+    E perda_interesse_grau = moderado
+    E fadiga = Sim, frequentemente
+    E fadiga_grau = moderado
+    E sentimento_inutilidade = Sim, frequentemente 		
+    E sentimento_inutilidade_grau = moderado
+    E dificuldade_concentracao = Sim, frequentemente
+    E dificuldade_concentracao_grau = moderado
+    E ideacao_suicida = Sim, frequentemente
+    E ideacao_suicida_grau = moderado
+    E baixa_auto_estima = Sim, frequentemente
+    E baixa_auto_estima_grau = moderado
+    E perda_libido = Sim, frequentemente
+    E perda_libido_grau = moderado
+    ENTÃO classificacao_disturbio = depressao_maior_moderado CNF 100%
+
+  Regra 5
+    SE perda_apetite = Sim, frequentemente
+    E perda_apetite_grau = grave
+    E insonia = Sim, frequentemente
+    E insonia_grau = grave
+    E agitacao = Sim, frequentemente
+    E agitacao_grau = grave
+    E perda_interesse = Sim, frequentemente
+    E perda_interesse_grau = grave
+    E fadiga = Sim, frequentemente
+    E fadiga_grau = grave
+    E sentimento_inutilidade = Sim, frequentemente 		
+    E sentimento_inutilidade_grau = grave
+    E dificuldade_concentracao = Sim, frequentemente
+    E dificuldade_concentracao_grau = grave
+    E ideacao_suicida = Sim, frequentemente
+    E ideacao_suicida_grau = grave
+    E baixa_auto_estima = Sim, frequentemente
+    E baixa_auto_estima_grau = grave
+    E perda_libido = Sim, frequentemente
+    E perda_libido_grau = grave
+    ENTÃO classificacao_disturbio = depressao_maior_grave CNF 100%
+
+  Regra 6
+    SE perda_apetite = Sim, frequentemente
+    OU perda_apetite = Sim, com pouca recorrência
+    E perda_apetite_grau = leve
+    E insonia = Sim, frequentemente
+    OU insonia = Sim, com pouca recorrência
+    E insonia_grau = leve
+    E agitacao = Sim, frequentemente
+    OU agitacao = Sim, com pouca recorrência
+    E agitacao_grau = leve
+    E perda_interesse = Sim, frequentemente
+    OU perda_interesse = Sim, com pouca recorrência
+    E perda_interesse_grau = leve
+    E fadiga = Sim, frequentemente
+    OU fadiga = Sim, com pouca recorrência
+    E fadiga_grau = leve
+    E sentimento_inutilidade = Sim, frequentemente 		
+    OU sentimento_inutilidade = Sim, com pouca recorrência
+    E sentimento_inutilidade_grau = leve
+    E dificuldade_concentracao = Sim, frequentemente
+    OU dificuldade_concentracao = Sim, com pouca recorrência
+    E dificuldade_concentracao_grau = leve
+    E ideacao_suicida = Sim, frequentemente
+    OU ideacao_suicida = Sim, com pouca recorrência
+    E ideacao_suicida_grau = leve
+    E baixa_auto_estima = Sim, frequentemente
+    OU baixa_auto_estima = Sim, com pouca recorrência
+    E baixa_auto_estima_grau = leve
+    E perda_libido = Sim, frequentemente
+    OU perda_libido = Sim, com pouca recorrência
+    E perda_libido_grau = leve
+    ENTÃO classificacao_disturbio = depressao_maior_leve CNF 100%
+
+7, 8 e 9 -> depressão atipica (leve, moderado ou grave)
+
+Regra 7
+    SE aumento_apetite = Sim
+    E aumento_apetite_grau = leve
+    E hipersonia = Sim
+    E hipersonia_grau = leve
+    E fadiga = Sim, frequentemente
+    OU fadiga = Sim, com pouca recorrência
+    E fadiga_grau = leve
+    E irritabilidade = Sim, frequentemente 		
+    OU irritabilidade = Sim, com pouca recorrência
+    E irritabilidade_grau = leve
+    ENTÃO classificacao_disturbio = depressao_atipica_leve CNF 100%
+
+Regra 8
+    SE aumento_apetite = Sim
+    E aumento_apetite_grau = moderado
+    E hipersonia = Sim
+    E hipersonia_grau = moderado
+    E fadiga = Sim, frequentemente
+    OU fadiga = Sim, com pouca recorrência
+    E fadiga_grau = moderado
+    E irritabilidade = Sim, frequentemente 		
+    OU irritabilidade = Sim, com pouca recorrência
+    E irritabilidade_grau = moderado
+    ENTÃO classificacao_disturbio = depressao_atipica_moderado CNF 100%
+
+Regra 9
+    SE aumento_apetite = Sim
+    E aumento_apetite_grau = grave
+    E hipersonia = Sim
+    E hipersonia_grau = grave
+    E fadiga = Sim, frequentemente
+    OU fadiga = Sim, com pouca recorrência
+    E fadiga_grau = grave
+    E irritabilidade = Sim, frequentemente 		
+    OU irritabilidade = Sim, com pouca recorrência
+    E irritabilidade_grau = grave
+    ENTÃO classificacao_disturbio = depressao_atipica_grave CNF 100%
+
+
