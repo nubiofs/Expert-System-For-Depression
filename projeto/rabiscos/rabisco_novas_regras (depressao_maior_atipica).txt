@@ -79,7 +79,7 @@ REGRAS 4, 5 e 6 -> depressão maior (leve, moderado ou grave)
     E perda_libido_grau = leve
     ENTÃO classificacao_disturbio = depressao_maior_leve CNF 100%
 
-7, 8 e 9 -> depressão atipica (leve, moderado ou grave)
+REGRAS 7, 8 e 9 -> depressão atipica (leve, moderado ou grave)
 
 Regra 7
     SE aumento_apetite = Sim
